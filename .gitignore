@@ -1,0 +1,50 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+src/*.egg-info/
+
+# Virtualenvs
+.venv/
+venv/
+
+# Training artifacts
+runs/
+*.pt
+*.tgz
+*-train.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HF / local caches
+.cache/
+data/
+**/hf_home/
+
+# OS / IDE / agents
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+*.swp
+
+# Private planning / agent handoff (not for public clone)
+HANDOFF.md
+PLAN.md
+notes.md
+AGENTS.md
+
+# Optional local paper dump (use arXiv instead)
+seq2seq.html
+
+# Secrets / env
+.env
+.env.*
+!.env.example
