@@ -6,7 +6,8 @@ Pedagogical PyTorch replica of [*Sequence to Sequence Learning with Neural Netwo
 |-----|---------|
 | [docs/architecture.md](docs/architecture.md) | Objective, reversal, LSTM, train/decode |
 | [docs/configs.md](docs/configs.md) | `paper` / `mid` / `toy` |
-| [notebooks/01_walkthrough.ipynb](notebooks/01_walkthrough.ipynb) | Runnable walkthrough |
+| [notebooks/01_walkthrough.ipynb](notebooks/01_walkthrough.ipynb) | Toy walkthrough (CPU) |
+| [notebooks/02_mid_walkthrough.ipynb](notebooks/02_mid_walkthrough.ipynb) | Mid / WMT on GPU |
 
 **In scope:** reversed-source encoder → fixed \(v\) → decoder LM; Graves LSTM; no attention.
 
